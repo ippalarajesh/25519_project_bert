@@ -48,3 +48,6 @@ trainer = Trainer(
 
 # Train the model
 trainer.train()
+# Save the fine-tuned model
+model.save_pretrained('./model/trained_model')
+tokenizer.save_pretrained('./model/trained_model')
